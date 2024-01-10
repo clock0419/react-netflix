@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode> 이것땜에 데이터 2번 받아옴??
-  <BrowserRouter>
+  <BrowserRouter basename='react-netflix'>
     <App />
   </BrowserRouter>
   // </React.StrictMode>
